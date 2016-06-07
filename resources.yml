@@ -1,5 +1,5 @@
 resources:
-  - name: nginx-image-1
+  - name: nginx-image-2
     type: image
     integration: pranay-docker
     source:
@@ -7,7 +7,7 @@ resources:
       isPull: false
       tag: latest
 
-  - name: myEcsCluster-1
+  - name: myEcsCluster-2
     type: ecsCluster
     integration: pranay-ecs
     source:
